@@ -1,0 +1,52 @@
+{
+    //details
+
+    "type": "UnitFactory",
+    "name": "AnserConstruct",
+
+    //campaign
+
+	"requirements":["silicon/5000"],
+    "category": "units",
+	"research":{
+		"parent": "SilicanWall1",
+		"requirements":[
+		    "silicon/5000"
+		]
+	},
+	
+    //specs
+
+    "size": 10,
+	"health":68000,
+	
+	"consumes":{"power":300},
+
+    "plans": [
+	{
+        "unit": "VeryFlare",
+        "requirements": ["silicon/1500"],
+        "time": 360
+    },
+	{
+        "unit": "ScoutStellar",
+        "requirements": ["silicon/1500","thorium/50"],
+        "time": 900
+    },
+	{
+        "unit": "AnserTank",
+        "requirements": ["silicon/9000","surge-alloy/2000"],
+        "time": 1800
+    },
+	{
+        "unit": "Rizzen",
+        "requirements": ["silicon/24000","surge-alloy/8000","phase-fabric/8000"],
+        "time": 3600
+    },
+	{
+        "unit": "Zatopud",
+        "requirements": ["silicon/40000","surge-alloy/16000","phase-fabric/24000"],
+        "time": 10800
+    }
+    ],
+}

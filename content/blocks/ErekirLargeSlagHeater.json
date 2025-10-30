@@ -1,0 +1,26 @@
+{
+    //details
+
+    "type": "HeatProducer",
+    "name": "ErekirLargeSlagHeater",
+
+    //campaign
+
+	"requirements":["beryllium/100","tungsten/250","oxide/100"],
+    "category": "crafting",
+    "research": "slag-heater"
+	
+    //specs
+
+    "size": 5,
+	"health": 1580,
+	
+	"hasPower":false,
+	"hasLiquids":true,
+	"hasItems":false,
+	
+	"liquidCapacity":600
+	
+	"consumes":{"liquid":{"liquid":"slag","amount":10}},
+	"heatOutput":120,
+}

@@ -1,0 +1,30 @@
+{
+    //details
+
+    "type": "BeamDrill",
+    "name": "ErekirDrillSilicanWall",
+
+    //campaign
+
+	"requirements":["silicon/25"],
+    "category": "production",
+    "research": "SilicanConveyor",
+	
+    //specs
+
+    "size": 1,
+    "canOverdrive": false,
+	"health": 800,
+	
+	"optionalBoostIntensity": 1,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	"itemCapacity": 60,
+	
+	"tier":10,
+	"drillTime":12,
+	"range":10,
+	"consumes":{"power":0.5},
+}

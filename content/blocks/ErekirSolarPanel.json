@@ -1,0 +1,20 @@
+
+{
+    //details
+
+    "type": "ConsumeGenerator",
+    "name": "ErekirSolarPanel",
+
+    //campaign
+
+	"requirements":["silicon/80","beryllium/25"],
+    "category": "power",
+    "research": "BatterySilican",
+	
+    //specs
+
+    "size": 2,
+	"health": 600,
+	"powerProduction": 0.5,
+	"consumes":{},
+}

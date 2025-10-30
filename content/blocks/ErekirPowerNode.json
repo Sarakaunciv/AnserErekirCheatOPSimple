@@ -1,0 +1,23 @@
+{
+    //details
+
+    "type": "PowerNode",
+    "name": "ErekirPowerNode",
+
+    //campaign
+
+	"requirements":["silicon/10","beryllium/10"],
+    "category": "power",
+    "research": "BatterySilican",
+	
+    //specs
+
+    "size": 2,
+	"health": 500,
+	
+	"laserRange": 20,
+	"maxNodes": 30,
+	"laserScale": 0.5,
+	"laserColor1": e0ffd8,
+	"laserColor2": d8e890,
+}

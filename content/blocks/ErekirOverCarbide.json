@@ -1,0 +1,34 @@
+{
+    //details
+
+    "type": "HeatCrafter",
+    "name": "ErekirOverCarbide",
+
+    //campaign
+
+	"requirements":["silicon/4000","carbide/50"],
+    "category": "crafting",
+	"research":{
+		"parent":"ErekirDOxide",
+		"requirements":["silicon/500000","carbide/50"],
+	},
+	
+    //specs
+
+    "size": 5,
+    "canOverdrive": false,
+	"health": 12000,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	
+	"itemCapacity": 100,
+	
+	"heatRequirement":225,
+	"maxEfficiency":10,
+	
+	"craftTime":60,
+	"consumes":{"power":5},
+	"outputItems": ["carbide/10"],
+}

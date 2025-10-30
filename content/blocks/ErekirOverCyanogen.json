@@ -1,0 +1,34 @@
+{
+    //details
+
+    "type": "HeatCrafter",
+    "name": "ErekirOverCyanogen",
+
+    //campaign
+
+	"requirements":["silicon/300","beryllium/400","carbide/100"],
+    "category": "liquid",
+	"research":{
+		"parent":"ErekirDOzone",
+		"requirements":["silicon/6000","beryllium/8000","carbide/500"],
+		"objectives":["cyanogen"]
+	},
+	
+    //specs
+
+    "size": 5,
+    "canOverdrive": false,
+	"health": 6300,
+	
+	"hasPower":true,
+	"hasLiquids":true,
+	"hasItems":false,
+	
+	"liquidCapacity":600,
+	
+	"heatRequirement":100,
+	"maxEfficiency":10,
+	
+	"consumes":{"power":4},
+	"outputLiquid": "cyanogen/1",
+}

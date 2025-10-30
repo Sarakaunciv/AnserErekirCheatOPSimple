@@ -1,0 +1,27 @@
+{
+    //details
+
+    "type": "CoreBlock",
+    "name": "ErekirCoreSilican",
+
+    //campaign
+
+	"requirements":["silicon/9000"],
+    "category": "effect",
+    "research": "SilicanDuplicator"
+	"research":{
+		"parent": "SilicanDuplicator",
+		"requirements":[
+		    "silicon/9000"
+		]
+	},
+	
+    //specs
+
+    "size": 8,
+	"health": 20000,
+	"itemCapacity":200000,
+	"unitCapModifier":45,
+	"unitType":"Sieri",
+	
+}

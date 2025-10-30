@@ -1,0 +1,34 @@
+{
+    //details
+
+    "type": "HeatCrafter",
+    "name": "ErekirOverNitrogen",
+
+    //campaign
+
+	"requirements":["silicon/300","beryllium/300","oxide/100"],
+    "category": "liquid",
+	"research":{
+		"parent":"ErekirDOzone",
+		"requirements":["silicon/6000","beryllium/6000","oxide/500"],
+		"objectives":["nitrogen"]
+	},
+	
+    //specs
+
+    "size": 4,
+    "canOverdrive": false,
+	"health": 4500,
+	
+	"hasPower":true,
+	"hasLiquids":true,
+	"hasItems":false,
+	
+	"liquidCapacity":600,
+	
+	"heatRequirement":90,
+	"maxEfficiency":10,
+	
+	"consumes":{"power":2},
+	"outputLiquid": "nitrogen/1",
+}

@@ -1,0 +1,25 @@
+{
+    //details
+
+    "type": "HeatProducer",
+    "name": "ErekirLargePhaseHeater",
+
+    //campaign
+
+	"requirements":["beryllium/150","oxide/150","carbide/150"],
+    "category": "crafting",
+    "research": "phase-heater"
+	
+    //specs
+
+    "size": 3,
+	"health": 855,
+	
+	"hasPower":false,
+	"hasLiquids":false,
+	"hasItems":true,
+	
+	"craftTime":30,
+	"consumes":{"items":["phase-fabric/1"]},
+	"heatOutput":240,
+}

@@ -1,0 +1,124 @@
+{
+    //details
+
+    "name": "Sieri",
+
+    //stats
+
+    "type": "flying",
+    "template": "ErekirUnitType",
+    "flying": true,
+    "lowAltitude": true,
+    "health": 9000,
+    "armor": 0,
+    "hitSize": 26,
+    "speed": 12,
+    "rotateSpeed": 12,
+    "accel": 0.1,
+    "drag": 0.1,
+	
+    "engineOffset": 18,
+    "engineSize": 8,
+
+	"envDisabled":0,
+	"fogRadius":0,
+	
+	"isEnemy":false,
+	"targetable":false,
+	"hittable":false,
+	
+    //stats [build]
+
+    "mineWalls": true,
+    "mineFloor": true,
+    "mineSpeed": 100,
+    "mineTier": 10,
+    "buildSpeed": 120,
+    "itemCapacity": 8000,
+
+    //weapon
+
+    "weapons":[
+    {
+    "name": Blank
+		"type":"RepairBeamWeapon",
+        "x": 0
+        "y": 20
+        "reload": 1
+        "mirror": false
+        "shootX": 0
+        "shootY": 0
+		"recoil":0,
+        "rotate": false
+        "rotateSpeed": 4
+        "shootCone": 180
+		
+		"laserColor": 98ffa9,
+		"healColor": 98ffa9,
+		"beamWidth":0.8,
+		"repairSpeed":25,
+		"targetUnits":false,
+		"targetBuildings":true,
+		"autoTarget":false,
+		"controllable":true,
+		
+        "bullet": {
+			"maxRange": 320
+		}
+	},
+    {
+    "name": Blank
+		"type":"RepairBeamWeapon",
+        "x": 6
+        "y": 16
+        "reload": 1
+        "mirror": true
+        "shootX": 0
+        "shootY": 0
+		"recoil":0,
+        "rotate": false
+        "rotateSpeed": 4
+        "shootCone": 180
+		
+		"laserColor": 98ffa9,
+		"healColor": 98ffa9,
+		"beamWidth":0.8,
+		"repairSpeed":25,
+		"targetUnits":false,
+		"targetBuildings":true,
+		"autoTarget":false,
+		"controllable":true,
+		
+        "bullet": {
+			"maxRange": 324
+		}
+	},
+    {
+    "name": Blank
+		"type":"RepairBeamWeapon",
+        "x": 12
+        "y": 9
+        "reload": 1
+        "mirror": true
+        "shootX": 0
+        "shootY": 0
+		"recoil":0,
+        "rotate": false
+        "rotateSpeed": 4
+        "shootCone": 180
+		
+		"laserColor": 98ffa9,
+		"healColor": 98ffa9,
+		"beamWidth":0.8,
+		"repairSpeed":25,
+		"targetUnits":false,
+		"targetBuildings":true,
+		"autoTarget":false,
+		"controllable":true,
+		
+        "bullet": {
+			"maxRange": 331
+		}
+	}
+    ]
+}

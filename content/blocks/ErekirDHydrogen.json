@@ -1,0 +1,33 @@
+{
+    //details
+
+    "type": "GenericCrafter",
+    "name": "ErekirDHydrogen",
+
+    //campaign
+
+	"requirements":["graphite/15","silicon/15","beryllium/30","tungsten/20"],
+    "category": "liquid",
+    "research": "DuplicateWaterSilican"
+	"research":{
+		"parent":"DuplicateWaterSilican",
+		"requirements":["graphite/300","silicon/300","beryllium/600","tungsten/400"],
+		"objectives":["hydrogen"]
+	},
+	
+    //specs
+
+    "size": 1,
+	"health": 400,
+	
+	"hasPower":true,
+	"hasLiquids":true,
+	"hasItems":false,
+	
+	"conductivePower":true,
+	"liquidCapacity":600
+	
+	"craftTime":60,
+	"consumes":{"power":1},
+	"outputLiquid": "hydrogen/10",
+}

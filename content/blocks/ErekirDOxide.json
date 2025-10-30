@@ -1,0 +1,37 @@
+{
+    //details
+
+    "type": "GenericCrafter",
+    "name": "ErekirDOxide",
+
+    //campaign
+
+	"requirements":["silicon/800","oxide/50"],
+    "category": "crafting",
+	"research":{
+		"parent": "DuplicateWaterSilican",
+		"requirements":[
+		    "silicon/80000",
+		    "oxide/50"
+		]
+	},
+	
+    //specs
+
+    "size": 4,
+	"health": 2600,
+	
+	"hasPower":true,
+	"hasLiquids":true,
+	"hasItems":true,
+	
+	"liquidCapacity":600
+	"itemCapacity": 100,
+	
+	"craftTime":60,
+	"consumes":{
+		"power":10,
+		"liquid":{"liquid":"ozone","amount":1}
+	},
+	"outputItems": ["oxide/10"],
+}
