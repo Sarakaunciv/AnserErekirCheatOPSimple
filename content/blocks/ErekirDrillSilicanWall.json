@@ -6,7 +6,7 @@
 
     //campaign
 
-	"requirements":["silicon/25"],
+	"requirements":["silicon/12"],
     "category": "production",
     "research": "SilicanConveyor",
 	
