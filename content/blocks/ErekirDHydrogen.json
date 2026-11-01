@@ -8,7 +8,6 @@
 
 	"requirements":["graphite/15","silicon/15","beryllium/30","tungsten/20"],
     "category": "liquid",
-    "research": "DuplicateWaterSilican"
 	"research":{
 		"parent":"DuplicateWaterSilican",
 		"requirements":["graphite/300","silicon/300","beryllium/600","tungsten/400"],
