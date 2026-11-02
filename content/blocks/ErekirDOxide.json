@@ -19,6 +19,7 @@
     //specs
 
     "size": 4,
+    "canOverdrive": false,
 	"health": 2600,
 	
 	"hasPower":true,
