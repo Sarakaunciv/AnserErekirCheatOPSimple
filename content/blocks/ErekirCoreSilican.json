@@ -18,8 +18,8 @@
     //specs
 
     "size": 8,
-	"health": 20000,
-	"itemCapacity":200000,
+	"health": 36000,
+	"itemCapacity":600000,
 	"unitCapModifier":45,
 	"unitType":"Sieri",
 	
