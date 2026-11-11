@@ -1,0 +1,30 @@
+{
+    //details
+
+    "type": "BeamDrill",
+    "name": "ErekirDrillSilicanWall4",
+
+    //campaign
+
+	"requirements":["silicon/80"],
+    "category": "production",
+    "research": "ErekirDrillSilicanWall3",
+	
+    //specs
+
+    "size": 4,
+    "canOverdrive": false,
+	"health": 3200,
+	
+	"optionalBoostIntensity": 1,
+	
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	"itemCapacity": 60,
+	
+	"tier":10,
+	"drillTime":12,
+	"range":20,
+	"consumes":{"power":2},
+}
