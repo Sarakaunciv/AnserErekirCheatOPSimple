@@ -6,12 +6,12 @@
 
     //campaign
 
-	"requirements":["silicon/9000"],
+	"requirements":["silicon/90"],
     "category": "effect",
 	"research":{
 		"parent": "SilicanDuplicator",
 		"requirements":[
-		    "silicon/9000"
+		    "silicon/90"
 		]
 	},
 	
