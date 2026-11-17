@@ -1,9 +1,9 @@
 {
-	//details
+	//details,
 
 	"name": "Sieri",
 
-	//stats
+	//stats,
 
 	"type": "payload",
 	"template": "ErekirUnitType",
@@ -20,12 +20,12 @@
 	"engineOffset": 18,
 	"engineSize": 8,
 
-	"envDisabled":0,
-	"fogRadius":0,
+	"envDisabled": 0,
+	"fogRadius": 0,
 	
-	"isEnemy":false,
-	"targetable":false,
-	"hittable":false,
+	"isEnemy": false,
+	"targetable": false,
+	"hittable": false,
 	
 	//stats [build]
 
@@ -36,94 +36,94 @@
 	"buildSpeed": 180,
 	"itemCapacity": 8000,
 	
-	"pickupUnits":false,
-	"vulnerableWithPayloads":true,
-	"payloadCapacity":1024,
+	"pickupUnits": false,
+	"vulnerableWithPayloads": true,
+	"payloadCapacity": 1024,
 	
-	"coreUnitDock":true,
+	"coreUnitDock": true,
 
-	//weapon
+	//weapon,
 
-	"weapons":[
+	"weapons": [
 		{
 			"name": Blank,
-			"type":"RepairBeamWeapon",
+			"type": "RepairBeamWeapon",
 			"x": 0,
 			"y": 20,
 			"reload": 1,
 			"mirror": false,
 			"shootX": 0,
 			"shootY": 0,
-			"recoil":0,
+			"recoil": 0,
 			"rotate": false,
 			"rotateSpeed": 4,
 			"shootCone": 180,
 			
 			"laserColor": 98ffa9,
 			"healColor": 98ffa9,
-			"beamWidth":0.8,
-			"repairSpeed":50,
-			"targetUnits":false,
-			"targetBuildings":true,
-			"autoTarget":false,
-			"controllable":true,
+			"beamWidth": 0.8,
+			"repairSpeed": 50,
+			"targetUnits": false,
+			"targetBuildings": true,
+			"autoTarget": false,
+			"controllable": true,
 			
 			"bullet": {
-				"maxRange": 320
+				"maxRange": 320,
 			}
 		},
 		{
 			"name": Blank,
-			"type":"RepairBeamWeapon",
+			"type": "RepairBeamWeapon",
 			"x": 6,
 			"y": 16,
 			"reload": 1,
 			"mirror": true,
 			"shootX": 0,
 			"shootY": 0,
-			"recoil":0,
+			"recoil": 0,
 			"rotate": false,
 			"rotateSpeed": 4,
 			"shootCone": 180,
 			
 			"laserColor": 98ffa9,
 			"healColor": 98ffa9,
-			"beamWidth":0.8,
-			"repairSpeed":50,
-			"targetUnits":false,
-			"targetBuildings":true,
-			"autoTarget":false,
-			"controllable":true,
+			"beamWidth": 0.8,
+			"repairSpeed": 50,
+			"targetUnits": false,
+			"targetBuildings": true,
+			"autoTarget": false,
+			"controllable": true,
 			
 			"bullet": {
-				"maxRange": 324
+				"maxRange": 324,
 			}
 		},
 		{
 			"name": Blank,
-			"type":"RepairBeamWeapon",
+			"type": "RepairBeamWeapon",
 			"x": 12,
 			"y": 9,
 			"reload": 1,
 			"mirror": true,
 			"shootX": 0,
 			"shootY": 0,
-			"recoil":0,
+			"recoil": 0,
 			"rotate": false,
 			"rotateSpeed": 4,
 			"shootCone": 180,
 			
 			"laserColor": 98ffa9,
 			"healColor": 98ffa9,
-			"beamWidth":0.8,
-			"repairSpeed":50,
-			"targetUnits":false,
-			"targetBuildings":true,
-			"autoTarget":false,
-			"controllable":true,
+			"beamWidth": 0.8,
+			"repairSpeed": 50,
+			"targetUnits": false,
+			"targetBuildings": true,
+			"autoTarget": false,
+			"controllable": true,
 			
 			"bullet": {
-				"maxRange": 331
+				"maxRange": 331,
 			}
 		}
 	]
