@@ -8,7 +8,7 @@
 
 	"requirements":["beryllium/150","oxide/150","carbide/150"],
     "category": "crafting",
-    "research": "phase-heater"
+    "research": "phase-heater",
 	
     //specs
 

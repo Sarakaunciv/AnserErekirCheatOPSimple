@@ -8,7 +8,7 @@
 
 	"requirements":["beryllium/100","tungsten/250","oxide/100"],
     "category": "crafting",
-    "research": "slag-heater"
+    "research": "slag-heater",
 	
     //specs
 
