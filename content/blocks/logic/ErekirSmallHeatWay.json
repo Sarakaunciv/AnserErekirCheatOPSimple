@@ -4,12 +4,13 @@
 
     "type": "HeatConductor",
     "name": "ErekirSmallHeatWay",
+	"description": "Not over power just normal.",
 
     //campaign,
 
 	"requirements": ["silicon/10","tungsten/10"],
     "category": "crafting",
-    "research": "SilicanConveyor",
+    "research": "heat-redirector",
 	
     //specs,
 

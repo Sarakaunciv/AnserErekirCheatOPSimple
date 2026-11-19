@@ -3,6 +3,7 @@
 
     "type": "HeatProducer",
     "name": "ErekirLargeElectricHeater",
+	"description": "Not over power just normal.",
 
     //campaign,
 
