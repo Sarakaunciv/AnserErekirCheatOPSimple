@@ -5,7 +5,9 @@ function setTeam(id, reset)
 	if (team == null) return;
 	if (reset == 2)
 	{
-		gameStateRules.buildSpeedMultiplier = 1;
+		const gameStateRules = Vars.state.rules;
+		let teamRule = gameStateRules.teams.get(team);
+		teamRule.buildSpeedMultiplier = 1;
 		gameStateRules.fog = false;
 		return;
 	}
