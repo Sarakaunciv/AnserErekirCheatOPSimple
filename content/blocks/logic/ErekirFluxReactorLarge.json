@@ -1,0 +1,54 @@
+
+{
+	//details,
+
+	"type": "VariableReactor",
+	"name": "ErekirFluxReactorLarge",
+	"description": "100x power of Flux Reactor. Explosion will eradicate anything within range.",
+
+	//campaign,
+
+	"requirements": ["graphite/4800","carbide/1200","oxide/1600","silicon/9600","surge-alloy/2400"],
+	"category": "power",
+	"research": "flux-reactor",
+	
+	//specs,
+
+	"size": 9,
+	"health": 9200,
+	"buildTime": 600,
+	
+	"itemCapacity": 100,
+	"liquidCapacity":600,
+	"canOverdrive": false,
+	
+	"consumes": {
+		"liquids": {
+			"liquids": [
+				"cyanogen/5",
+			]
+		}
+	},
+	"powerProduction": 30000,
+	
+	"explosionRadius": 120,
+	"explosionDamage": 310000,
+	
+	"maxHeat": 3000,
+	
+	"ambientSound": loopFlux,
+	"ambientSoundVolume": 1,
+
+	"drawer": {
+		"type":"DrawMulti",
+		"drawers":[
+			"DrawDefault",
+			"DrawHeatInput",
+			{
+				"type": "DrawGlowRegion",
+				"suffix": "-ventglow",
+				"color": 32603a,
+			},
+		]
+	},
+}

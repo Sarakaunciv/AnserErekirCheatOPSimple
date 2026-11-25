@@ -1,0 +1,54 @@
+
+{
+	//details,
+
+	"type": "HeaterGenerator",
+	"name": "ErekirNeoplasiaReactorLarge",
+	"description": "100x power of Neoplasia Reactor. Explosion will eradicate anything within range.",
+
+	//campaign,
+
+	"requirements": ["tungsten/15000","carbide/6000","oxide/3000","silicon/10000","phase-fabric/3000","surge-alloy/4000"],
+	"category": "power",
+	"research": "neoplasia-reactor",
+	
+	//specs,
+
+	"size": 9,
+	"health": 12000,
+	"buildTime": 1200,
+	
+	"itemCapacity": 100,
+	"liquidCapacity":600,
+	"canOverdrive": false,
+	
+	"consumes": {
+		"items": {
+			"items": [
+				"phase-fabric/10",
+			]
+		},
+		"liquids": {
+			"liquids": [
+				"arkycite/10",
+				"water/5",
+			]
+		}
+	},
+	"itemDuration": 60,
+	"powerProduction": 14000,
+	
+	"explosionRadius": 110,
+	"explosionDamage": 260000,
+	
+	"explodeOnFull": true,
+	"outputLiquid": {
+		"liquid": neoplasm,
+		"amount": 5,
+	},
+	"heatOutput": 6000,
+	"warmupRate": 5,
+	
+	"ambientSound": loopBio,
+	"ambientSoundVolume": 1,
+}
